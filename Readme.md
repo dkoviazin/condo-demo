@@ -18,7 +18,7 @@ node index.js
 
 # Example output
 
-```json
+```shell
 Logged in as  {
   type: 'staff',
   name: 'Demo пользователь',

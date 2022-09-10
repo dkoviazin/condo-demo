@@ -110,6 +110,22 @@ atomic-sleep@^1.0.0:
   resolved "https://registry.yarnpkg.com/atomic-sleep/-/atomic-sleep-1.0.0.tgz#eb85b77a601fc932cfe432c5acd364a9e2c9075b"
   integrity sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==
 
+condo-graphql-client@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/condo-graphql-client/-/condo-graphql-client-0.0.1.tgz#2811b3fa5b9dfd350ee021309d0a99ed7f6c00ea"
+  integrity sha512-1Rh81AuZhqwTYwrbSUh1dm/h5VjxrS5G4hPWhge71UutycIDgyd8ynli8Ag5f6Xt9QsoR/QJvZG9C8KLkcMVXw==
+  dependencies:
+    "@apollo/client" "^3.6.9"
+    apollo-link-error "^1.1.13"
+    apollo-upload-client "^17.0.0"
+    cross-fetch "^3.1.5"
+    dotenv "^16.0.2"
+    graphql "^16.6.0"
+    graphql-tag "^2.12.6"
+    pino "^8.5.0"
+    pluralize "^8.0.0"
+    react "^18.2.0"
+
 cross-fetch@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
@@ -132,11 +148,6 @@ extract-files@^11.0.0:
   resolved "https://registry.yarnpkg.com/extract-files/-/extract-files-11.0.0.tgz#b72d428712f787eef1f5193aff8ab5351ca8469a"
   integrity sha512-FuoE1qtbJ4bBVvv94CC7s0oTnKUGvQs+Rjf1L2SJFfS+HTVVjhPFtehPdQ0JiGPqVNfSSZvL5yzHHQq2Z4WNhQ==
 
-"falsey@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/falsey/-/falsey-1.0.0.tgz#71bdd775c24edad9f2f5c015ce8be24400bb5d7d"
-  integrity sha512-zMDNZ/Ipd8MY0+346CPvhzP1AsiVyNfTOayJza4reAIWf72xbkuFUDcJNxSAsQE1b9Bu0wijKb8Ngnh/a7fI5w==
-
 fast-json-stable-stringify@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
@@ -146,6 +157,11 @@ fast-redact@^3.1.1:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/fast-redact/-/fast-redact-3.1.2.tgz#d58e69e9084ce9fa4c1a6fa98a3e1ecf5d7839aa"
   integrity sha512-+0em+Iya9fKGfEQGcd62Yv6onjBmmhV1uh86XVfOU8VwAe6kaFdQCWI9s0/Nnugx5Vd9tdbZ7e6gE2tR9dzXdw==
+
+gql@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/gql/-/gql-1.1.2.tgz#355cb814f11a6d6e49e3393425628911ee100f63"
+  integrity sha512-fF+1HtQqLdv1LtA6fntKXzuUPVHaQYoVwL60bKpZK4VCpTVcdMijOxSLPUKjj2PAyU1vrHAk7D9EpkBw89CyoQ==
 
 graphql-tag@^2.12.6:
   version "2.12.6"
@@ -170,11 +186,6 @@ hoist-non-react-statics@^3.3.2:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
-
-lodash@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"

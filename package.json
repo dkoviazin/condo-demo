@@ -6,7 +6,7 @@
   "author": "Dmitry Koviazin <dkovyazin@doma.ai>",
   "license": "MIT",
   "dependencies": {
-    "condo-graphql-client": "^0.0.1",
+    "condo-graphql-client": "^0.0.3",
     "dotenv": "^16.0.2",
     "gql": "^1.1.2",
     "graphql-tag": "^2.12.6"

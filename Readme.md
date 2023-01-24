@@ -19,15 +19,13 @@ node index.js
 # Example output
 
 ```shell
-Logged in as  {
+currentUser {
   type: 'staff',
   name: 'Demo пользователь',
   avatar: null,
   meta: null,
   isPhoneVerified: true,
   isEmailVerified: false,
-  importId: null,
-  importRemoteSystem: null,
   isAdmin: false,
   isSupport: false,
   id: '41d01a01-d2b9-41b4-9460-54d17601311a',
@@ -38,25 +36,13 @@ Logged in as  {
   createdAt: '2022-09-08T18:58:13.325Z',
   updatedAt: '2022-09-08T18:58:13.325Z'
 }
-Ticket is classified as {
+classifier {
+  id: 'da68292d-c5ab-41e7-b1b8-8df50c97af53',
   place: { id: '5e341876-fcfb-4f2c-8a7f-d381979809a6', name: 'Квартира' },
-  category: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57', name: 'Канализация' },
-  classifier: {
-    id: 'da68292d-c5ab-41e7-b1b8-8df50c97af53',
-    place: { id: '5e341876-fcfb-4f2c-8a7f-d381979809a6', name: 'Квартира' },
-    category: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57', name: 'Канализация' }
-  }
+  category: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57', name: 'Канализация' }
 }
-Created new ticket {
-  canReadByResident: false,
+newTicket {
   completedAt: null,
-  lastCommentAt: null,
-  lastResidentCommentAt: null,
-  isResidentTicket: false,
-  reviewValue: null,
-  reviewComment: null,
-  deadline: null,
-  deferredUntil: null,
   organization: {
     id: '52284b8d-221d-4d3c-ba15-ce81bc48bac6',
     name: 'ООО "Связь-Инвест"',
@@ -82,42 +68,28 @@ Created new ticket {
     organization: null,
     colors: { primary: '#EB3468', secondary: '#FFFFFF', additional: '#FFFFFF' }
   },
-  statusReopenedCounter: 0,
-  statusUpdatedAt: null,
-  statusReason: null,
-  number: 98881,
+  number: 100371,
   client: null,
   clientName: null,
   clientEmail: null,
   clientPhone: null,
   contact: null,
-  operator: null,
-  assignee: null,
-  executor: null,
   details: 'Не набирается вода в туалете в унитаз просьба от Председателя МКД',
-  related: null,
-  isEmergency: false,
-  isPaid: false,
-  isWarranty: false,
-  meta: null,
   source: {
     id: '7da1e3be-06ba-4c9e-bba6-f97f278ac6e4',
     name: 'Другое',
     type: 'other'
   },
   sourceMeta: null,
-  categoryClassifier: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57' },
-  placeClassifier: { id: '5e341876-fcfb-4f2c-8a7f-d381979809a6' },
-  problemClassifier: null,
   classifier: {
     id: 'da68292d-c5ab-41e7-b1b8-8df50c97af53',
     place: { id: '5e341876-fcfb-4f2c-8a7f-d381979809a6', name: 'Квартира' },
     category: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57', name: 'Канализация' },
     problem: null
   },
-  id: '0f2b86da-9307-49a4-a7df-3ad7e9790e60',
+  id: '775807a7-fb4b-4391-bd4d-08508da2dc44',
   dv: 1,
-  sender: { dv: 1, fingerprint: 'ticket-demo-bot' },
+  sender: { dv: 1, fingerprint: 'apollo-server-client' },
   createdBy: {
     id: '41d01a01-d2b9-41b4-9460-54d17601311a',
     name: 'Demo пользователь'
@@ -126,10 +98,34 @@ Created new ticket {
     id: '41d01a01-d2b9-41b4-9460-54d17601311a',
     name: 'Demo пользователь'
   },
-  createdAt: '2022-09-08T19:10:10.590Z',
-  updatedAt: '2022-09-08T19:10:10.590Z'
+  createdAt: '2023-01-24T13:13:52.376Z',
+  updatedAt: '2023-01-24T13:13:52.376Z'
+}
+ticketFile {
+  id: 'a5150a22-6782-4e0c-b7a3-bfbdd56d603d',
+  file: {
+    id: 'clda9dq1704e40qsj1zv07yky',
+    originalFilename: 'Readme.md',
+    publicUrl: 'https://condo.d.doma.ai/api/files/ticket/clda9dq1704e40qsj1zv07yky.md',
+    mimetype: 'text/markdown'
+  },
+  organization: { id: '52284b8d-221d-4d3c-ba15-ce81bc48bac6' },
+  ticket: { id: '775807a7-fb4b-4391-bd4d-08508da2dc44' },
+  dv: 1,
+  sender: { dv: 1, fingerprint: 'apollo-server-client' },
+  createdBy: {
+    id: '41d01a01-d2b9-41b4-9460-54d17601311a',
+    name: 'Demo пользователь'
+  },
+  updatedBy: {
+    id: '41d01a01-d2b9-41b4-9460-54d17601311a',
+    name: 'Demo пользователь'
+  },
+  createdAt: '2023-01-24T13:13:55.094Z',
+  updatedAt: '2023-01-24T13:13:55.094Z'
 }
 All done
+
 
 ```
 

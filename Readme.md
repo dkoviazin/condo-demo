@@ -36,11 +36,15 @@ currentUser {
   createdAt: '2022-09-08T18:58:13.325Z',
   updatedAt: '2022-09-08T18:58:13.325Z'
 }
+
+
 classifier {
   id: 'da68292d-c5ab-41e7-b1b8-8df50c97af53',
   place: { id: '5e341876-fcfb-4f2c-8a7f-d381979809a6', name: 'Квартира' },
   category: { id: '05d5da18-7b68-4f2d-a486-41ae30fe8e57', name: 'Канализация' }
 }
+
+
 newTicket {
   completedAt: null,
   organization: {
@@ -101,6 +105,8 @@ newTicket {
   createdAt: '2023-01-24T13:13:52.376Z',
   updatedAt: '2023-01-24T13:13:52.376Z'
 }
+
+
 ticketFile {
   id: 'a5150a22-6782-4e0c-b7a3-bfbdd56d603d',
   file: {
@@ -125,6 +131,9 @@ ticketFile {
   updatedAt: '2023-01-24T13:13:55.094Z'
 }
 All done
+
+<img width="884" alt="image" src="https://user-images.githubusercontent.com/1640424/214308137-fa8d756a-46d2-4a26-941b-c0340b052128.png">
+
 
 
 ```

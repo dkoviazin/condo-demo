@@ -132,9 +132,7 @@ ticketFile {
 }
 All done
 
-<img width="884" alt="image" src="https://user-images.githubusercontent.com/1640424/214308137-fa8d756a-46d2-4a26-941b-c0340b052128.png">
-
-
 
 ```
+<img width="884" alt="image" src="https://user-images.githubusercontent.com/1640424/214308137-fa8d756a-46d2-4a26-941b-c0340b052128.png">
 
